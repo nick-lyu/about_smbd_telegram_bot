@@ -4,9 +4,8 @@ import sqlite3
 from aiogram import Bot, Dispatcher
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
+from local_settings import API_TOKEN, ADMIN_ID
 
-API_TOKEN = '5282687995:AAHfuJrWeGdQ-enFRLUzsy7YzCi3gJRaffc'
-ADMIN_ID = 357277790
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
